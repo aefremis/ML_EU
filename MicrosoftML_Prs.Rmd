@@ -1,0 +1,37 @@
+---
+title:  <h3>Microsoft Machine Learning Stack for BI & Analytics</h3>
+author: <h5>Andreas Effraimis<h5>
+output: 
+  revealjs::revealjs_presentation:
+    theme: night
+---
+
+# BI tools and ML integration
+
+## Power BI & R setup
+
+## Power BI ML models
+
+# Azure ML Studio
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Code and Output
+
+```{r}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+# SQL Server Machine Learnign services
+
+# Microsoft R Server
