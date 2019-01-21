@@ -4,13 +4,26 @@ author: <h5>Andreas Effraimis<h5>
 output: 
   revealjs::revealjs_presentation:
     theme: night
+    center: false
 ---
 
 # BI tools and ML integration
 
-## Power BI & R setup
+## Power BI & R integration
+
+We can integrate Power BI with R either to visualize analytical outcomes or self contain an ML model within our dashboards
+
+There are two ways of doing this :
+
+- Create an R data source 
+- Create an R visual and execute an external R script
 
 ## Power BI ML models
+
+R scripting essentially gives the Power BI user the ability to integrate ane ML models within business dashboads and answer not only descriptive questions but also prescriptive and predictive.
+
+- Traditional BI [ What happend? ]
+- Data Science  [ Why it happend? What will happen? ]
 
 # Azure ML Studio
 

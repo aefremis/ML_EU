@@ -1,9 +1,8 @@
 #Recency Frequency and Monetery customer clusters
 
 ##### libraries #####
-library(cluster);library(fpc);library(ggplot2)
+library(cluster);library(ggplot2)
 library(gridExtra);library(data.table);library(outliers)
-library(scales,lib.loc="C:/Program Files/R/R-3.5.1/library")
 
 # load binary file
 system.time(RFMscores <- fread('CustomerRFM.csv'))
@@ -22,14 +21,8 @@ outliersToRemove <- unique(as.numeric(unlist(outliers_ids)))
 RFMscores <- RFMscores[!outliersToRemove,]
 pmatrix <- pmatrix[!outliersToRemove,]
 
-# k means runs
-# ClusterInfo <- fpc::kmeansruns(data = pmatrix,
-#                             krange = 2:10,
-#                             criterion = "ch",
-#                             runs = 100,
-#                             scaledata = F,
-#                             plot=F)
 
+# number of similarity groups
 numClust <- 8
 
 # Kmeans model
