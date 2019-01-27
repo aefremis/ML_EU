@@ -27,24 +27,14 @@ R scripting essentially gives the Power BI user the ability to integrate ane ML 
 
 # Azure ML Studio
 
-## Slide with Bullets
+## Visual Process Machine Learning 
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+Azure Machine Learning Studio is a visual drag and drop model building enviroment.
 
-## Slide with R Code and Output
+- Easily build a prototype ML flow
+- Productionalize this ML solution via web services utility
+- Integrate R & Python Scripts
 
-```{r}
-summary(cars)
-```
+# SQL Server Machine Learning Services
 
-## Slide with Plot
-
-```{r, echo=FALSE}
-plot(cars)
-```
-
-# SQL Server Machine Learnign services
-
-# Microsoft R Server
+# Microsoft Machine Learning (R) Server

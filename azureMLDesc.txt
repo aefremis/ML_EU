@@ -1,0 +1,35 @@
+Unit & Trade Model			
+Total Points of ACV Dist	Total Points of ACV Dist	SALTY SNACKS	Trade1
+% Volume Sales, Feature and Display	% Volume Sales, Feature and Display	SALTY SNACKS	Trade2
+% Volume Sales, Display Only	% Volume Sales, Display Only	SALTY SNACKS	Trade3
+% Volume Sales, Feature Only	% Volume Sales, Feature Only	SALTY SNACKS	Trade4
+% Volume Sales, Price Reduction Only	% Volume Sales, Price Reduction Only	SALTY SNACKS	Trade5
+Wtd Avg Base Prc/Unit	Wtd Avg Base Prc/Unit	SALTY SNACKS	Trade6
+ACV Weighted Distribution, Feature and Display	ACV Weighted Distribution, Feature and Display	SALTY SNACKS	Trade7
+ACV Weighted Distribution, Display Only	ACV Weighted Distribution, Display Only	SALTY SNACKS	Trade8
+ACV Weighted Distribution, Feature Only	ACV Weighted Distribution, Feature Only	SALTY SNACKS	Trade9
+ACV Weighted Distribution, Price Reduction Only	ACV Weighted Distribution, Price Reduction Only	SALTY SNACKS	Trade10
+			
+Cross Category Model			
+ Dips - Wtd Avg Base Prc/Unit	Wtd Avg Base Prc/Unit	DIPS	Cross1
+ Crackers - Wtd Avg Base Prc/Unit	Wtd Avg Base Prc/Unit	CRACKERS	Cross2
+ Meat Snacks - Wtd Avg Base Prc/Unit	Wtd Avg Base Prc/Unit	MEAT SNACKS	Cross3
+Crackers - Total Points of ACV Dist	Total Points of ACV Dist	CRACKERS	Cross4
+ Dips - Total Points of ACV Dist	Total Points of ACV Dist	DIPS	Cross5
+ RiceCake/Soy - Total Points of ACV Dist	Total Points of ACV Dist	RICE CAKES/SOY	Cross6
+ Dips - % Volume Sales, Display Only	% Volume Sales, Display Only	DIPS	Cross7
+ Dips - % Volume Sales, Price Reduction Only	% Volume Sales, Price Reduction Only	DIPS	Cross8
+PopCorn - % Volume Sales, Features & Displays	% Volume Sales, Feature and Display	POPCORN (UNPOPPED)	Cross9
+Crackers - % Volume Sales, Price Reduction Only	% Volume Sales, Price Reduction Only	CRACKERS	Cross10
+Crackers - % Volume Sales, Display Only	% Volume Sales, Display Only	CRACKERS	Cross11
+Meat Snacks - % Volume Sales, Price Reduction Only	% Volume Sales, Price Reduction Only	MEAT SNACKS	Cross12
+Nuts/Seeds/TrailMix - % Volume Sales, Display Only	% Volume Sales, Display Only	NUTS/SEEDS/TRAIL MIX	Cross13
+			
+Macros Model			
+ Minimum Wage: Hourly Wage, ($)	FMINWAGE.US	Minimum Wage: Hourly Wage, ($)	Macro1
+ U.S. All Grades All Formulations Retail Gasoline Prices, (Cents per Gallon)	FEIAMGTTQ.US	U.S. All Grades All Formulations Retail Gasoline Prices, (Cents per Gallon)	Macro2
+ CPI: Urban Consumer - Food at Home, (Index, 1982-84=100, SA)	FCPIUAF11.US	CPI: Urban Consumer - Food at Home, (Index, 1982-84=100, SA)	Macro3
+MBA: Loans Past Due 90 Days - FHA Loans, (%, SA)	FMBAD90F.US	MBA: Loans Past Due 90 Days - FHA Loans, (%, SA)	Macro4
+NIPA: Personal Consumption Expenditures - Nondurable goods, (Bil. $, SAAR)	FCN.US	NIPA: Personal Consumption Expenditures - Nondurable goods, (Bil. $, SAAR)	Macro5
+ Income: Disposable Personal, (Bil. $, SAAR)	FYPDPI$Q.US	Income: Disposable Personal, (Bil. 05$, SAAR)	Macro6
+ NIPA: Gross Domestic Product, (Bil. 05$, SAAR)	FGDP$.US	NIPA: Gross Domestic Product, (Bil. 05$, SAAR)	Macro7
