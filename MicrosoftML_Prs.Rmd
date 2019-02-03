@@ -9,7 +9,13 @@ output:
 
 # BI tools and ML integration
 
+## Welcome note
+
+<i>‘When you’re fundraising, it’s AI. When you’re hiring, it’s ML. When you’re implementing, it’s logistic regression.’</i>
+<small>Joe Davison</small>
+
 ## Power BI & R integration
+
 
 We can integrate Power BI with R either to visualize analytical outcomes or self contain an ML model within our dashboards
 
@@ -37,4 +43,28 @@ Azure Machine Learning Studio is a visual drag and drop model building enviromen
 
 # SQL Server Machine Learning Services
 
-# Microsoft Machine Learning (R) Server
+## In database Data Science operations
+
+Technical programming languages can be utilized to build analytical models in-database without having to move data across networks.
+
+- R with libraries RevoScaleR & MicrosoftML [available since 2016 distribution]
+- Python with revoscalepy and microsoftml [available since 2017 distribution]
+
+## R example 
+
+-Define a connection.
+<i>connStr <- "Driver=SQL Server;Server=<your-server-name>;
+Database=NYCTaxi_Sample;Trusted_Connection=true"</i>
+
+-Specify the input data in a SQL query
+<i>sampleQuery <-"SELECT DISTINCT TOP(100) tip_amount FROM 
+[dbo].nyctaxi_sample ORDER BY tip_amount DESC;"</i>
+
+-Define a remote compute context based on the remote server
+<i>cc <-RxInSqlServer(connectionString=connStr)</i>
+
+-Execute the function using the remote compute context.
+<i>rxSummary(formula = ~ ., data = RxSqlServerData(sqlQuery=sampleQuery, connectionString=connStr), computeContext=cc)</i>
+
+-Generate a scatter plot.
+<i>rxLinePlot(fare_amount ~ tip_amount, data = RxSqlServerData(sqlQuery=sampleQuery, connectionString=connStr, computeContext=cc), type="p")</i>
